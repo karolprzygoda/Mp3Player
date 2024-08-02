@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ScrollPane?>
+
+
+<ScrollPane fx:id="cardContainer" fitToWidth="true" hbarPolicy="NEVER" prefHeight="520.0" prefWidth="350.0" styleClass="custom-scroll-pane" stylesheets="@../css/style.css"  xmlns:fx="http://javafx.com/fxml/1" fx:controller="karol.przygoda.mp3player.controllers.EditSongListController" />

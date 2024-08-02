@@ -1,0 +1,81 @@
+
+.container{
+    -fx-background-color: white;
+    -fx-background-radius: 8px
+}
+
+.button{
+    -fx-background-color: transparent;
+    -fx-border:none;
+
+}
+
+.button:hover {
+    -fx-opacity: 1;
+}
+
+.button:hover .closeIcon, .button:hover .minimizeIcon {
+    -fx-opacity: 1;
+}
+
+
+.songCard{
+    -fx-background-color: #f2f3f5;
+}
+
+
+.scroll-pane{
+    -fx-background-color: transparent;
+}
+
+.scroll-pane >*{
+    -fx-background-color: transparent;
+}
+
+.scroll-pane .scroll-bar:vertical,
+.scroll-pane .scroll-bar:horizontal {
+    -fx-opacity: 0;
+}
+
+.custom-scroll-pane .scroll-bar:vertical  {
+ -fx-opacity: 1 !important;
+
+}
+
+.custom-scroll-pane .scroll-bar:vertical .thumb {
+
+ -fx-background-color: #EF6E6B !important;
+
+}
+
+
+
+.scroll-pane .scroll-bar:vertical .increment-button,
+.scroll-pane .scroll-bar:vertical .decrement-button,
+.scroll-pane .scroll-bar:horizontal .increment-button,
+.scroll-pane .scroll-bar:horizontal .decrement-button {
+    -fx-opacity: 0;
+}
+
+.customSlider .thumb,
+.customSlider .track {
+	-mfx-color: #EF6E6B !important;
+	-fx-fill: derive(#EF6E6B, 85%) !important;
+}
+
+.customSlider .bar {
+	-fx-fill: #EF6E6B !important;
+}
+
+
+.customSlider .thumb-container:hover .thumb-radius,
+.customSlider .thumb-container:pressed .thumb-radius {
+	-mfx-color: derive(#EF6E6B, 85%) !important;
+	-fx-opacity: 0.5 !important;
+}
+
+.customSlider .thumb-container .mfx-ripple-generator {
+	-mfx-ripple-color: #EF6E6B !important;
+}
+
+
